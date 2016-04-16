@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+    "name": "Fahmt",
+    "description": "Beautiful translations",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
