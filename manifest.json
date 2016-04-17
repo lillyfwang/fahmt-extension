@@ -3,6 +3,9 @@
     "name": "Fahmt",
     "description": "Beautiful translations",
     "version": "0.1",
+    "icons": {
+        "48": "48.png"
+    },
     "browser_action": {
         "default_title": "Fahmt"
     },

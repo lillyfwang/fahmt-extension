@@ -67,7 +67,6 @@ document.onmousemove = function(e) {
         $('#fahmt-tooltip').text('');
         $('#fahmt-tooltip').hide();
     }
-    console.log(Object.keys(cache).length);
 }
 
 
