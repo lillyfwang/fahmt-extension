@@ -3,6 +3,16 @@
     "name": "Fahmt",
     "description": "Beautiful translations",
     "version": "0.1",
+    "browser_action": {
+        "default_title": "Fahmt"
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
     "content_scripts": [
         {
             "matches": [
